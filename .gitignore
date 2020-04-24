@@ -1,0 +1,60 @@
+#Clases Compiladas
+/*.classpath
+/*.project
+/*.class
+
+#Logs
+# Logs
+aprendiendomicroservicios/logs/
+aprendiendomicroservicios/*.logs
+aprendiendomicroservicios/log/
+aprendiendomicroservicios/*.log
+
+# Archivos comprimidos
+aprendiendomicroservicios/*.war
+aprendiendomicroservicios/*.nar
+aprendiendomicroservicios/*.ear
+aprendiendomicroservicios/*.zip
+aprendiendomicroservicios/*.tar.gz
+aprendiendomicroservicios/*.rar
+
+### Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### Gradle Patch ###
+**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+aprendiendomicroservicios/*.iml
+*.iml
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
